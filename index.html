@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Волшебные уголки планеты</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="brand" href="#about">Planet's Magic <span class="brand-mark">✦</span></a>
+      <nav class="top-menu"><a href="#about">О проекте</a><a href="#cards">Разделы</a><a href="#materials">Места</a><a href="#contacts">Контакты</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap first-screen" id="about">
+      <div class="first-copy"><p class="overline">Открываем места, где живёт магия</p><h1>Волшебные уголки планеты</h1><p class="intro-text">На земле ещё остались места, где время замирает, а воздух пропитан чудом. Это волшебство природы.</p><a class="main-link" href="#cards">Перейти к разделам</a></div>
+      <div class="picture-empty big-picture"><img src="img/hero-stars.jpg" alt="Звёздное небо над горными вершинами"></div>
+    </section>
+
+    <section class="wrap features" id="cards">
+      <article class="feature"><div class="feature-number">1</div><h2>Затерянные руины — где время остановилось</h2><p>Древние города и постройки, где тишина звучит громче слов.</p></article>
+      <article class="feature"><div class="feature-number">2</div><h2>Природные иллюзии — магия света и цвета</h2><p>Места, которые кажутся декорациями к фантастическому фильму.</p></article>
+      <article class="feature"><div class="feature-number">3</div><h2>Скрытые уголки — там, где нет толп</h2><p>Места, куда путь неблизкий, поэтому там сохранилась тишина.</p></article>
+      <article class="feature"><div class="feature-number">4</div><h2>Контрасты — где встречаются крайности</h2><p>Места, где природа совместила противоположности.</p></article>
+    </section>
+
+    <section class="wrap wide-row">
+      <article class="story"><div class="picture-empty story-photo"><img src="img/mesa-arch.jpg" alt="Каменная арка над каньоном"></div><div class="story-copy"><p class="overline">Главное место недели</p><h2>Mesa Arch — природная рамка для идеального рассвета</h2><p>Арка Меса — пример того, как время и стихии создают красоту на стыке противоположностей.</p><button class="light-link place-button" data-place="mesa">Подробнее</button></div></article>
+      <div class="short-list">
+        <article class="short-item place-button" data-place="aurora" tabindex="0" role="button"><div class="list-photo"><img src="img/aurora.jpg" alt="Северное сияние"></div><div><h2>Природные иллюзии</h2><p>Северное сияние — природная иллюзия, которая обманывает взгляд.</p></div></article>
+        <article class="short-item place-button" data-place="angkor" tabindex="0" role="button"><div class="list-photo"><img src="img/angkor-wat.jpg" alt="Ангкор-Ват"></div><div><h2>Затерянные руины</h2><p>Ангкор-Ват — крупнейший религиозный памятник Камбоджи.</p></div></article>
+        <article class="short-item place-button" data-place="pitukro" tabindex="0" role="button"><div class="list-photo"><img src="img/pitukro.jpg" alt="Водопад в лесу"></div><div><h2>Скрытые уголки</h2><p>Водопады и тропы, до которых нужно добраться пешком.</p></div></article>
+      </div>
+    </section>
+
+    <section class="wrap materials" id="materials">
+      <div class="materials-head"><p class="overline">Реальные локации, выглядящие как в сказке</p><h2>Места, в которые сложно поверить</h2><p class="materials-note">Нажмите на карточку, чтобы открыть подробное описание места.</p></div>
+      <div class="material-cards">
+        <article class="material place-button" data-place="pitukro" tabindex="0" role="button"><div class="material-photo"><img src="img/pitukro.jpg" alt="Водопад в тропическом лесу"></div><h2>Водопад Питукро</h2><p>🇹🇭 Таиланд, национальный парк Умпханг.</p></article>
+        <article class="material place-button" data-place="lagoon" tabindex="0" role="button"><div class="material-photo"><img src="img/lagoon.jpg" alt="Бирюзовая лагуна"></div><h2>Бирюзовая лагуна</h2><p>🇭🇷 Хорватия, тихие бухты Адриатического побережья.</p></article>
+        <article class="material place-button" data-place="glacier" tabindex="0" role="button"><div class="material-photo"><img src="img/glacier.jpg" alt="Ледниковая долина"></div><h2>Ледниковая долина</h2><p>🇦🇷 Аргентина, национальный парк Лос-Гласьярес.</p></article>
+        <article class="material place-button" data-place="pink-beach" tabindex="0" role="button"><div class="material-photo"><img src="img/pink-beach.jpg" alt="Розовый пляж"></div><h2>Розовый берег</h2><p>🇮🇩 Индонезия, остров Ломбок.</p></article>
+        <article class="material place-button" data-place="angkor" tabindex="0" role="button"><div class="material-photo"><img src="img/angkor-wat.jpg" alt="Храм Ангкор-Ват"></div><h2>Ангкор-Ват</h2><p>🇰🇭 Камбоджа, храмовый комплекс среди джунглей.</p></article>
+        <article class="material place-button" data-place="alps" tabindex="0" role="button"><div class="material-photo"><img src="img/alps.jpg" alt="Звёздное небо над горами"></div><h2>Ночь над Альпами</h2><p>🇨🇭 Швейцария, горные озёра и чистое звёздное небо.</p></article>
+        <article class="material place-button" data-place="palau" tabindex="0" role="button"><div class="material-photo"><img src="img/palau.jpg" alt="Зелёные острова"></div><h2>Каменные острова</h2><p>🇵🇼 Палау, острова, похожие на зелёные скульптуры.</p></article>
+        <article class="material place-button" data-place="new-zealand" tabindex="0" role="button"><div class="material-photo"><img src="img/new-zealand.jpg" alt="Дорога среди гор"></div><h2>Дорога в облака</h2><p>🇳🇿 Новая Зеландия, горные перевалы и туман.</p></article>
+        <article class="material place-button" data-place="aurora" tabindex="0" role="button"><div class="material-photo"><img src="img/aurora.jpg" alt="Северное сияние"></div><h2>Северное сияние</h2><p>🇳🇴 Норвегия, ночное небо над Тромсё.</p></article>
+        <article class="material place-button" data-place="salar" tabindex="0" role="button"><div class="material-photo"><img src="img/salar.jpg" alt="Солончак Уюни"></div><h2>Зеркало Уюни</h2><p>🇧🇴 Боливия, бескрайний солончак после дождя.</p></article>
+        <article class="material place-button" data-place="cappadocia" tabindex="0" role="button"><div class="material-photo"><img src="img/cappadocia.jpg" alt="Воздушные шары над Каппадокией"></div><h2>Каппадокия</h2><p>🇹🇷 Турция, долины и воздушные шары на рассвете.</p></article>
+        <article class="material place-button" data-place="santorini" tabindex="0" role="button"><div class="material-photo"><img src="img/santorini.jpg" alt="Белые дома Санторини"></div><h2>Белые скалы Санторини</h2><p>🇬🇷 Греция, островной город над Эгейским морем.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bottom" id="contacts"><div class="wrap bottom-row"><div><a class="brand" href="#about">Planet's Magic</a><p>Гид по местам, которые хочется запомнить.</p></div><div class="bottom-links"><a href="#about">О проекте</a><a href="#cards">Разделы</a><a href="#materials">Места</a></div></div></footer>
+
+  <div class="modal" id="place-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-backdrop" data-close-modal></div><div class="modal-dialog"><button class="modal-close" type="button" data-close-modal aria-label="Закрыть окно">×</button><div class="modal-image"><img id="modal-image" src="" alt=""></div><div class="modal-content"><p class="overline" id="modal-category"></p><h2 id="modal-title"></h2><p class="modal-description" id="modal-description"></p><div class="modal-location" id="modal-location"></div><div class="modal-details" id="modal-details"></div><div class="interesting-fact"><strong>Интересный факт</strong><p id="modal-fact"></p></div></div></div></div>
+</body>
+</html>
+
+
+
